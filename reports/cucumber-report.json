@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality-of-ohrm-app;user-should-login-sucessfully",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "User Should Login Sucessfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3882611099
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3851762499
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user navigates to OHRM login Page",
+            "match": {
+              "location": "src\\stepDefinations\\loginSteps.ts:9"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 641514499
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enters username \"Admin\"",
+            "match": {
+              "location": "src\\stepDefinations\\loginSteps.ts:14"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32084399
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enters password \"admin123\"",
+            "match": {
+              "location": "src\\stepDefinations\\loginSteps.ts:19"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1225229700
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Clicks the Login Button",
+            "match": {
+              "location": "src\\stepDefinations\\loginSteps.ts:24"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 369000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "User should be Successfully Logged In",
+            "match": {
+              "location": "src\\stepDefinations\\loginSteps.ts:29"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 757556399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality-of-ohrm-app",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Functionality of OHRM App",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]
